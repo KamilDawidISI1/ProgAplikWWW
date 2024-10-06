@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="pl" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Kamil Dawid" />
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="css/styleform.css">
+</head>
+<body>
+
+<div class="all">
+    <header>
+        <div class="form-header">
+            <h1>Kontakt</h1>
+            <p>Podziel się swoimi opiniami poprzez formularz</p>
+        </div>
+    </header>
+
+    <div class="form-contact">
+        <form action="mailto:dawid.cytrox1234@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Imie Nazwisko/Nick</label>
+            <input type="text" id="name" name="name" placeholder="Wpisz tutaj imienazwisko/nick" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Wpisz tutaj email" required>
+
+            <label for="message">Wiadomość</label>
+            <textarea id="message" rows="5" placeholder="Twoja wiadomość" required></textarea>
+
+            <button type="submit">Wyślij</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Kamil Dawid</p>
+        <p><i><a href="Menu.html">Powrót do strony głownej</a></i></p>
+    </footer>
+</div>
+
+</body>
+</html>
