@@ -1,0 +1,150 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    transition: background-color 0.5s;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.block-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.block-header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 20px;
+}
+
+.block a {
+    margin-top: 10px;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.block a:hover {
+    margin-top: 10px;
+    font-size: 1.3em;
+    transition: 0.5s;
+}
+
+.block-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.block-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #333;
+    border-radius: 25px;
+    transition: 1s;
+}
+.block-item img:hover {
+     width: 350px;
+     height: 350px;
+     object-fit: cover;
+     border: 5px solid #88888a;
+     border-radius: 25px;
+    transition: 1s;
+ }
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    color: red;
+    transition: 0.5s;
+    font-size: 1.2em;
+}
+
+.bntdark {
+    height: 35px;
+    width: 70px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bntdark:hover {
+    background-color: #1C60AEFF;
+    color: black;
+}
+
+
+.bntlight {
+    height: 35px;
+    width: 70px;
+    position: absolute;
+    top: 55px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bntlight:hover {
+    background-color: #1C60AEFF;
+    color: black;
+}
+
+#zegarek {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+#data {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}

@@ -1,0 +1,155 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.form-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.form-header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.form-contact{
+    padding: 20px;
+    max-width: 1000px;
+    height: 200px;
+    flex: 1;
+    margin: 20px auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-contact label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.form-contact input[type="text"],
+.form-contact input[type="email"],
+.form-contact textarea {
+    padding: 10px;
+    background-color: #685a5a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 750px;
+}
+
+.form-contact button {
+    padding: 10px;
+    background-color: #685a5a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 45%;
+}
+
+.form-contact button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    transition: 0.5s;
+    font-size: 1.2em;
+}
+
+.bntdark {
+    height: 35px;
+    width: 70px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bntdark:hover {
+    background-color: #1C60AEFF;
+    color: black;
+}
+
+
+.bntlight {
+    height: 35px;
+    width: 70px;
+    position: absolute;
+    top: 55px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bntlight:hover {
+    background-color: #1C60AEFF;
+    color: black;
+}
+
+#zegarek {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+#data {
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
