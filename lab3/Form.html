@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="pl" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Kamil Dawid" />
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="css/styleform.css">
+    <script src="script/kolorujtlo.js" type="text/javascript"></script>
+    <script src="script/timedate.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("header").click(function (){
+                $(this).toggleClass("header_animation")
+            });
+        });
+    </script>
+</head>
+<body onload="startClock()">
+
+<div class="all">
+    <header>
+        <div id="zegarek"></div>
+        <div id="data"></div>
+        <div class="form-header">
+            <h1>Kontakt</h1>
+            <p>Podziel się swoimi opiniami poprzez formularz</p>
+        </div>
+    </header>
+
+    <div class="form-contact">
+        <form action="mailto:dawid.cytrox1234@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Imie Nazwisko/Nick</label>
+            <input type="text" id="name" name="name" placeholder="Wpisz tutaj imienazwisko/nick" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Wpisz tutaj email" required>
+
+            <label for="message">Wiadomość</label>
+            <textarea id="message" rows="5" placeholder="Twoja wiadomość" required></textarea>
+
+            <button type="submit">Wyślij</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Kamil Dawid</p>
+        <p><i><a href="Menu.html" class="static">Powrót do strony głownej</a></i></p>
+    </footer>
+</div>
+
+<button class="bntdark" type="button" onclick="changeBackground('#4E4545FF', '#fff')">Dark</button>
+<button class="bntlight" type="button" onclick="changeBackground('#fff', '#4E4545FF')">Light</button>
+
+</body>
+</html>

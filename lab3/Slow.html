@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="pl" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Kamil Dawid" />
+    <title>Słowiańskie Demony</title>
+    <link rel="stylesheet" href="css/stylesub.css">
+    <script src="script/kolorujtlo.js" type="text/javascript"></script>
+    <script src="script/timedate.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("header").click(function (){
+                $(this).toggleClass("header_animation")
+            });
+        });
+    </script>
+</head>
+<body onload="startClock()">
+
+<div class="all">
+    <header>
+        <div id="zegarek"></div>
+        <div id="data"></div>
+        <div class="sub-header">
+            <h1>Słowiańskie Demony</h1>
+            <p>Podcast o mitologii słowiańskiej</p>
+        </div>
+    </header>
+
+    <div class="block">
+        <img src="img/Slow/Slow1.png" alt="Zdjęcie 1" class="left-img">
+        <p>Opis ze Spotify: <br> Podcast o mitologii słowiańskiej, ze szczegółnym uwzględnieniem demonologii i odrobiną historii. Czemu
+        topiono Marzannę? Dlaczego nasi dziadkowie bali się południc? Co różniło Swaroga i Swarożyca> Jakie tałatajstwa nie dawały spać
+        po nocach naszym przodkom i w co tak ogólnie wierzyli dawni Słowianie?</p>
+        <img src="img/Slow/Slow2.png" alt="Zdjęcie 2" class="right-img">
+        <p>Na Słowiańskie Demony natknąłem się w czasach technikum, dzięki dobremu znajomemu. W tamtym czasie na kanale były dostępne zaledwie
+            trzy odcinki, więc nie miałem wiele do nadrabiania. Już od pierwszego odsłuchu tematyka dawnych wierzeń słowiańskich mnie
+            zafascynowała, zwłaszcza że w szkole nie mieliśmy okazji zgłębiać takich zagadnień. Podcast otworzył przede mną drzwi do mało
+            znanego świata wierzeń przodków, a wszystko to przedstawione było w niezwykle wciągający sposób.
+            Prowadzący potrafił nie tylko zainteresować słuchacza, ale również wprowadzić go w temat z wielką starannością.
+            Każdy odcinek opierał się na rzetelnych materiałach, popartych licznymi źródłami, w tym książkami, zapisami z archiwów i
+            innymi historycznymi dokumentami. Dzięki temu, słuchając, miałem pewność, że przedstawiane informacje są wiarygodne.
+            Podcast umożliwiał poznanie historii, która rzadko pojawia się w szkolnych programach nauczania. W przystępny sposób
+            ukazywał świat dawnych Słowian i ich wierzeń, zanim nastało chrześcijaństwo, odkrywając przed słuchaczami fascynujący
+            świat mitologii, obrzędów i postaci, które kształtowały tożsamość przedchrześcijańskiej Europy Wschodniej.
+            Każdy odcinek był dla mnie podróżą w czasie, podczas której mogłem zgłębiać tę mało znaną część historii Polski
+            i innych krajów słowiańskich. Niestety podcast nie jest już kontynuowany, ale z przyjemnością wracam do starych odcinków,
+            by jeszcze raz zagłębić się w świat wierzeń słowiańskich</p>
+    </div>
+
+    <footer>
+        <p><i><a href="Menu.html" class="static">Powrót do strony głównej</a></i></p>
+        <p><i><a href="Form.html" class="static">Kontakt</a></i></p>
+    </footer>
+</div>
+
+<button class="bntdark" type="button" onclick="changeBackground('#4E4545FF', '#fff')">Dark</button>
+<button class="bntlight" type="button" onclick="changeBackground('#fff', '#4E4545FF')">Light</button>
+
+</body>
+</html>
