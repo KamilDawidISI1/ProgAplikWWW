@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="pl" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Kamil Dawid" />
+    <title>NI3 WIEM PODCAST</title>
+    <link rel="stylesheet" href="../css/stylesub.css">
+    <script src="../js/kolorujtlo.js" type="text/javascript"></script>
+    <script src="../js/timedate.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("header").click(function (){
+                $(this).toggleClass("header_animation")
+            });
+        });
+    </script>
+</head>
+<body onload="startClock()">
+
+<div class="all">
+    <header>
+        <div id="zegarek"></div>
+        <div id="data"></div>
+        <div class="sub-header">
+            <h1>NI3 WIEM PODCAST</h1>
+            <p>Trzech kolegów rozmawia ze sobą o wszystkim i niczym</p>
+        </div>
+    </header>
+
+    <div class="block">
+        <img src="../img/NWP/NWP1.png" alt="Zdjęcie 1" class="left-img">
+        <p>Opis ze Spotify: <br> Witam w Ni3 Wiem Podcast. <br> Jest to podcast o totalnych głupotach. Czasami obgadujemy dramy influenserów, jeszcze częściej wydarzenia z ostatnich dni.
+            Nie zamykamy się na żadne tematy. Żartujemy sobie ze wszystkiego i z niczego. Jakby to określić... "nie wiem".
+            Odcinki pojawiają się co tydzień w niedzielę o godzinie 14:00. Czasem dodatkowo wypuścimy jakiś specjal ale to zależy</p>
+
+        <img src="../img/NWP/NWP2.png" alt="Zdjęcie 2" class="right-img">
+        <p>Jest to podcast komediowy nastawiony na rozmowę 3 kolegów na przeróżne tematy związane m. in. z polską muzyką, filmami Marvel'a, itp.
+            Trójka prowadzących czyli: Czarek "czarekbut" Butkiewicz (ten trzeci, dyktator Czaruch, ten co nie ma czasu bo zaraz do pracy idzie, siłowniany świr),
+            Zbychu "Kozack97" Skowroński (Skawiński, Skowyrski, ten gruby, bezrobotny, leń, nie potrafi wstać na 10 na nagrywki) oraz
+            Piotrek "Piotrek Parking" Parking (polski Spiderman, właściciel kanału commentary, ukrywa się pod maską, wielki wróg Gimpera)</p>
+
+        <p>Słucham NI3 WIEM Podcastu już od ponad dwóch lat i za każdym razem potrafi on poprawić mi humor. Uwielbiam sposób,
+            w jaki prowadzący omawiają wydarzenia z ostatniego tygodnia, potrafiąc z wyczuciem balansować między powagą a komizmem
+            sytuacji. Szczególnie doceniam ich recenzje nowych filmów oraz premiery kinowe, na które często brakuje mi czasu, by obejrzeć je
+            samodzielnie. Dzięki temu mam przegląd najnowszych produkcji i mogę poczuć się na bieżąco. A te półtorej czy dwie godziny,
+            które spędzam z podcastem, mijają błyskawicznie, bo atmosfera, jaką tworzą Piotrek, Czarek i Zbychu, jest pełna pozytywnej
+            energii. Każdy odcinek dostarcza śmiechu i relaksu, a oczekiwanie na nową niedzielną premierę stało się dla
+            mnie prawdziwą tradycją.</p>
+    </div>
+
+    <footer>
+        <p><i><a href="../Menu.html" class="static">Powrót do strony głównej</a></i></p>
+        <p><i><a href="Form.html" class="static">Kontakt</a></i></p>
+    </footer>
+</div>
+
+<button class="bntdark" type="button" onclick="changeBackground('#4E4545FF', '#fff')">Dark</button>
+<button class="bntlight" type="button" onclick="changeBackground('#fff', '#4E4545FF')">Light</button>
+
+</body>
+</html>
