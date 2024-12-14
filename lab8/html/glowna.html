@@ -1,0 +1,62 @@
+
+
+<!DOCTYPE html>
+
+<head>
+  <title>Moje hobby to podcasty</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/kolorujtlo.js" type="text/javascript"></script>
+  <script src="js/timedate.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("header").click(function (){
+        $(this).toggleClass("header_animation")
+      });
+    });
+  </script>
+</head>
+
+<div class="all">
+  <header>
+    <div id="zegarek"></div>
+    <div id="data"></div>
+    <div class="block-header">
+      <h1>Oto moje ulubione podcasty</h1>
+      <p>O każdym coś opowiem i dlaczego go słucham/słuchałem</p>
+    </div>
+  </header>
+
+  <div class="block">
+    <div class="block-item">
+      <a href="index.php?idp=NWP"><img src="img/NWP/NWP.png" alt="NI3 WIEM PODCAST"></a>
+      <p><b><a href="index.php?idp=NWP" >NI3 WIEM PODCAST</a></b></p>
+    </div>
+    <div class="block-item">
+      <a href="index.php?idp=DTP"><img src="img/DTP/DTP.png" alt="Dwóch Typów Podcast"></a>
+      <p><b><a href="index.php?idp=DTP" class="text">Dwóch Typów Podcast</a></b></p>
+    </div>
+    <div class="block-item">
+      <a href="index.php?idp=Krym"><img src="img/Krym/Krym.png" alt="Kryminatorium"></a>
+      <p><b><a href="index.php?idp=Krym" class="text">Kryminatorium</a></b></p>
+    </div>
+    <div class="block-item">
+      <a href="index.php?idp=Dama"><img src="img/Dama/Dama.png" alt="Dama Kier"></a>
+      <p><b><a href="index.php?idp=Dama" class="text">Dama Kier</a></b></p>
+    </div>
+    <div class="block-item">
+      <a href="index.php?idp=Slow"><img src="img/Slow/Slow.png" alt="Słowiańskie Demony"></a>
+      <p><b><a href="index.php?idp=Slow" class="text">Słowiańskie Demony</a></b></p>
+    </div>
+
+  </div>
+  <footer>
+    <p><i><a href="index.php?idp=Form" class="static">Kontakt</a></i></p>
+    <p> Autor: Kamil Dawid 169232 grupa: ISI 1.</p>
+
+  </footer>
+</div>
+
+<button class="bntdark" type="button" onclick="changeBackground('#4E4545FF', '#fff')">Dark</button>
+<button class="bntlight" type="button" onclick="changeBackground('#fff', '#4E4545FF')">Light</button>
+
